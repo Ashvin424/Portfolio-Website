@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>My Portfolio</h1>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#social">Social Media</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hello, I'm <span class="highlight">Ashvin Prajapati</span></h1>
+                <p>Android developer | Web developer</p>
+                <a href="#social" class="btn">Connect With Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="images/profile.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>Hello! I'm a passionate frontend developer with experience in HTML, CSS, and JavaScript. I enjoy creating clean, responsive, and user-friendly web applications.</p>
+                    <p>Currently, I'm exploring mobile app development using Java and continuously expanding my skill set to become a full-stack developer. I love solving challenges, learning new technologies, and improving my development skills.</p>
+                    <div class="skills">
+                        <div class="skill">JAVA</div>
+                        <div class="skill">ANDROID</div>
+                        <div class="skill">JAVASCRIPT</div>
+                        <div class="skill">FIREBASE</div>
+                        <div class="skill">AI</div>
+                        <div class="skill">XML</div>
+                        <div class="skill">HTML,CSS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social" class="social">
+        <div class="container">
+            <div class="section-header">
+                <h2>Connect With Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="social-icons">
+                <div class="social-card" data-platform="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>Professional updates and networking</p>
+                    <a href="https://linkedin.com/in/prajapati-ashvin434" target="_blank" class="social-link">Follow Me</a>
+                </div>
+                <div class="social-card" data-platform="GitHub">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>Code repositories and projects</p>
+                    <a href="https://github.com/Ashvin424" target="_blank" class="social-link">Follow Me</a>
+                </div>
+                <div class="social-card" data-platform="Instagram">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>Visual content and behind the scenes</p>
+                    <a href="https://instagram.com/ashvinprajapati434_" target="_blank" class="social-link">Follow Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Portfolio</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="ai">Artificial Intelligence</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="app">
+                    <img src="images/weatherApp.svg" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Weather App</h3>
+                        <p>App Development</p>
+                        <a href="https://github.com/Ashvin424/Weather_Watch" class="btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="images/calculator.svg" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Calculator</h3>
+                        <p>App Development</p>
+                        <a href="https://github.com/Ashvin424/Calculator" class="btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="images/portfolio.svg" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h3>Portfolio Website</h3>
+                        <p>Web Development</p>
+                        <a href="#" class="btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ai">
+                    <img src="images/ai.svg" alt="Project 5">
+                    <div class="portfolio-overlay">
+                        <h3>Potato Disease Detection Project</h3>
+                        <p>Artificial Intelligence</p>
+                        <a href="https://github.com/Ashvin424/Potato-Disease-Detection-Project" class="btn-small">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>pashvin6665@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Halvad, Gujrat, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>My Portfolio</h2>
+                    <p>Connect with me on social media</p>
+                    <div class="footer-social">
+                        <a href="https://linkedin.com/in/prajapati-ashvin434" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Ashvin424" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://instagram.com/ashvinprajapati434_" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#social">Social Media</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
